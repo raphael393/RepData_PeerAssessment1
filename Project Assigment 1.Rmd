@@ -2,10 +2,13 @@
 title: "Project Assigment 1 - Analysis of Steps and Intervals"
 author: "Raphael Parrado"
 date: "February 10, 2019"
+output:
+  md_document:
+    variant: markdown_github
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=TRUE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.path = 'figure/plot-')
 ```
 
 ##Introduction
